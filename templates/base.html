@@ -37,12 +37,15 @@
     <div class="message-container"></div>
     {% endif %}
 
-    
+    {% block page_header %}
+    {% endblock %}
+
+    {% block content %}
+    {% endblock %}
+
+    {% block postloadjs %}
+    {% endblock %}
 
    
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-   
-    -->
   </body>
 </html>
